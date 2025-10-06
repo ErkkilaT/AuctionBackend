@@ -24,7 +24,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/ErkkilaT/AuctionBackend.git'
+                git branch: 'master', url: 'https://github.com/ErkkilaT/AuctionBackend'
             }
         }
 
